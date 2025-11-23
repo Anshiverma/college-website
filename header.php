@@ -10,7 +10,7 @@ $currentPage = basename($_SERVER['PHP_SELF']);
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- CSS -->
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="style.css">   <!-- FIXED -->
 </head>
 <body>
 
@@ -22,7 +22,7 @@ $currentPage = basename($_SERVER['PHP_SELF']);
 <!-- 🔷 Main Header -->
 <header>
   <div class="header-container">
-    <img src="images/siws-logo.png" alt="SIWS Logo" class="logo">
+    <img src="siws-logo.png" alt="SIWS Logo" class="logo"> <!-- FIXED -->
     <h1 class="college-name">SIWS College</h1>
   </div>
 
@@ -30,13 +30,11 @@ $currentPage = basename($_SERVER['PHP_SELF']);
   <nav>
     <a href="index.php" class="<?= $currentPage=='index.php' ? 'active' : '' ?>">Home</a>
     <a href="about.php" class="<?= $currentPage=='about.php' ? 'active' : '' ?>">About</a>
-    <a href="/siwscollege/faculty.php" class="<?= $currentPage=='faculty.php' ? 'active' : '' ?>">Faculty</a>
-    <a href="/siwscollege/admission.php" class="<?= $currentPage=='admission.php' ? 'active' : '' ?>">Admission</a>
+    <a href="faculty.php" class="<?= $currentPage=='faculty.php' ? 'active' : '' ?>">Faculty</a>
+    <a href="admission.php" class="<?= $currentPage=='admission.php' ? 'active' : '' ?>">Admission</a>
     <a href="courses.php" class="<?= $currentPage=='courses.php' ? 'active' : '' ?>">Courses</a>
-   <a href="/siwscollege/facilities.php" class="<?= $currentPage=='facilities.php' ? 'active' : '' ?>">Facilities</a>
+    <a href="facilities.php" class="<?= $currentPage=='facilities.php' ? 'active' : '' ?>">Facilities</a>
     <a href="contact.php" class="<?= $currentPage=='contact.php' ? 'active' : '' ?>">Contact</a>
-    
-
   </nav>
 </header>
 
