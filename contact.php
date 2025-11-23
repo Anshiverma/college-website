@@ -1,4 +1,5 @@
-<?php include("includes/header.php"); ?>
+<?php include 'header.php'; ?>
+
 
 <!-- Contact Page Background -->
 <div class="hero-contact">
@@ -49,4 +50,6 @@
     </div>
 </div>
 
-<?php include("includes/footer.php"); ?>
+<?php include 'footer.php'; ?>
+
+
