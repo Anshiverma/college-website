@@ -1,7 +1,6 @@
-<?php 
-include 'includes/header.php'; 
+<?php include 'header.php'; ?>
+
 session_start();
-?>
 
 <!-- Hero Section -->
 <div class="hero-contact">
@@ -63,4 +62,5 @@ session_start();
     </ul>
 </div>
 
-<?php include 'includes/footer.php'; ?>
+<?php include 'footer.php'; ?>
+
