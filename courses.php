@@ -1,4 +1,4 @@
-<?php include 'includes/header.php'; ?>
+<?php include 'header.php'; ?>
 
 <!-- Courses Hero Background -->
 <div class="hero-courses">
@@ -59,4 +59,5 @@
 
 </div>
 
-<?php include 'includes/footer.php'; ?>
+<?php include 'footer.php'; ?>
+
