@@ -1,4 +1,5 @@
-<?php include 'includes/header.php'; ?>
+<?php include 'header.php'; ?>
+
 
 <!-- About page with single background -->
 <div class="about-background">
@@ -46,4 +47,5 @@
     </div>
 </div>
 
-<?php include 'includes/footer.php'; ?>
+<?php include 'footer.php'; ?>
+
