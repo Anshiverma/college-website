@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: college-website
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    envVars:
+      PORT: 10000
